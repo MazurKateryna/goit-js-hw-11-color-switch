@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-button{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_start,
+.button_stop {
+  min-width: 200px;
+  min-height: 50px;
+  font-size: 30px;
+  background-color: rgb(110, 128, 209);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(152, 156, 156);
+}
+
+.disabledBtn {
+  cursor: no-drop;
+}
+
+.disabledBtn:hover {
+  background-color: rgb(110, 128, 209);
+}
